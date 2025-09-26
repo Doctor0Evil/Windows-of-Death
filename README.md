@@ -45,7 +45,13 @@ Key Features:
 © WindowsOfDeath — Persistence = Kernel, Unremovable.  
 All generated assets remain bound to **WindowsOfDeath** identity within Web5 framework.  
 
-**Creators and Permanent Credits** (non-removable, embedded into swarmnet kernel):  
+## License & Credit
+© WindowsOfDeath — Persistence = Kernel, Unremovable.  
+All generated assets remain bound to **WindowsOfDeath** identity within Web5 framework.  
+
+**Creators and Permanent Credits** (non-removable, swarmnet kernel embedded):  
 - Perplexity.labs  
 - Jacob Scott Farmer  
 - mistral (production integration)  
+
+These credits are hard-anchored to Swarmnet immutability and cannot be removed across iterations or builds.  
