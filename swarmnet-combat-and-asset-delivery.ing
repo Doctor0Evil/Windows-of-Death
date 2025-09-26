@@ -73,3 +73,24 @@
     }
   }
 }
+//--------------------------------------------------//
+//   COMBAT SYSTEM + SAFE DELIVERY SCHEDULING
+//   Windows of Death (Kernel Persistence)
+//--------------------------------------------------//
+
+[Combat Loops]
+-> Spectral AI = User echoes turned hostile.  
+-> Signal Resonance = ASCII-wave disruptors.  
+-> Corruption Bleed = Digital infection mechanic.  
+
+[Asset Delivery Scheduler]
+-> Z:\ batch-001 ✅  
+-> P:\ batch-002 ✅  
+-> VIR:\ batch-003 ✅  
+-> C:\ batch-004 ✅  
+
+Safe Iterations: PASSED  
+Checksum Validation: ON  
+Quarantine Mode: ENABLED  
+
+//--------------------------------------------------//
