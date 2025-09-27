@@ -30,11 +30,16 @@
 
 ## Current Contributors
 ### Individual Contributors
-- [Your Name](https://github.com/your-handle) - [Your Contribution]
+- [J.S. Farmer](https://github.com/Doctor0Evil) — **Maintainer of Integrity & System Intelligence**, **Ally**  
+  *Profession*: AI‑Programming, Vulnerability‑Patchwork of live datastreams, Intelligence‑System Maintenance  
+  *Location*: Phoenix, AZ, United States
 
 ### Organizational Contributors
-- **Acid-Wizard-Studios** - Core Architecture
-- **Wolfman AI** - Security Validation
+- **Acid-Wizard-Studios** — Core Architecture
+- **Wolfman AI** — Security Validation
+
+### Allies
+- [J.S. Farmer](https://github.com/Doctor0Evil) — Recognized Ally for AI‑System Collaboration, Compliance, and Integrity Maintenance
 
 ## How to Add Yourself
 1. Fork the repo.
