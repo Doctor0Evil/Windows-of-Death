@@ -45,6 +45,24 @@ jobs:
         run: |
           echo "Checking for DID in admin configs..."
           grep -R "did:web5:admin" configs/ || (echo "Missing admin DID in configs" && exit 1)
+      - name: Generate Compliance Report
+        run: |
+          mkdir -p compliance
+          echo "# 🛡 Swarmnet Compliance Report" > compliance/compliance_report.md
+          echo "" >> compliance/compliance_report.md
+          echo "**Run ID:** ${{ github.run_id }}" >> compliance/compliance_report.md
+          echo "**Commit SHA:** ${{ github.sha }}" >> compliance/compliance_report.md
+          echo "**Date:** $(date -u)" >> compliance/compliance_report.md
+          echo "" >> compliance/compliance_report.md
+          echo "## Results" >> compliance/compliance_report.md
+          grep -R "swarmnet-mode-only" configs/ >> compliance/compliance_report.md || echo "Missing swarmnet-mode-only" >> compliance/compliance_report.md
+          grep -R "WindowsOfDeath" configs/ >> compliance/compliance_report.md || echo "Missing kernel persistence" >> compliance/compliance_report.md
+
+      - name: Upload Compliance Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: compliance-report
+          path: compliance/compliance_report.md
 
       - name: Report success
         run: echo "✅ Swarmnet compliance checks passed."
