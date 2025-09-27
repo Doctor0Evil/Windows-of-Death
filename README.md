@@ -1,4 +1,8 @@
-﻿# Windows-of-Death
+/.github/workflows/swarmnet-ci-gate.yml
+/compliance
+  └── compliance_report.md   # auto-generated per CI run
+ 
+ # Windows-of-Death
 # Windows of Death  
 *A Web5-anchored survival-horror narrative game with visual-learning AI support.*  
 
@@ -55,3 +59,4 @@ All generated assets remain bound to **WindowsOfDeath** identity within Web5 fra
 - mistral (production integration)  
 
 These credits are hard-anchored to Swarmnet immutability and cannot be removed across iterations or builds.  
+
