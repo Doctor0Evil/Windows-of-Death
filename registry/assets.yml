@@ -1,9 +1,11 @@
-# registry/assets.yml - Starter asset set for Windows-of-Death ecosystem
-
 characters:
   - id: wanderer_001
     archetype: Wanderer
-    vocation: Wayfinder
+    capabilities:
+      movement: [stealth_step, hill_climb, ledge_balance]
+    safety:
+      ml_model_checksum: "sha256-abc123..."
+      ethical_review: "approved"
     capabilities:
       movement: [stealth_step, hill_climb, ledge_balance]
       interaction: [campcraft, trail_mark, bind_wound]
@@ -55,3 +57,12 @@ encounter_props:
     type: ritual
     name: Forest Altar
     interaction: offer_sacrifices
+
+characters:
+  - id: wanderer_001
+    archetype: Wanderer
+    capabilities:
+      movement: [stealth_step, hill_climb, ledge_balance]
+    safety:
+      ml_model_checksum: "sha256-abc123..."
+      ethical_review: "approved"
