@@ -1,0 +1,11 @@
+# File: registry/assets.yml
+assets:
+  - asset_id: mdl_humanoid_wanderer_v1
+    type: model
+    name: Wanderer Humanoid
+    version: 1.0.0
+    uri: assets/models/wanderer.glb
+    checksum: sha256:...
+    author: J.S. Farmer
+    license: MIT
+    tags: humanoid,cloth,openworld
