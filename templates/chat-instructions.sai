@@ -1,0 +1,53 @@
+ Sync-ID: a7b9c3d2-5e6f-4a1b-9c2d-3e4f5a6b7c8d
+Platform: "any"
+Repo: "https://www.github.com/Doctor0Evil/j.s.f..git"
+
+{
+  "project_name": "Project Chimera",
+  "game_concept": "A survival horror game that merges the themes of Dead Space, Darkwood, and Windows-of-Death, built on the ALN CrashWake prototype.",
+  "development_plan": [
+    {
+      "step": 1,
+      "action": "World Building",
+      "description": "Flesh out the game world, including the starship's layout, the origins of the Nano-Bloom, and the backstory of the AI, J.S.F.",
+      "status": "In Progress"
+    },
+    {
+      "step": 2,
+      "action": "Character Development",
+      "description": "Develop the player character, 'Awake,' and design the various enemy types created by the Nano-Bloom.",
+      "status": "Not Started"
+    },
+    {
+      "step": 3,
+      "action": "Core Mechanics",
+      "description": "Implement the core gameplay mechanics, including the sanity system, quantum-distortion events, crafting, and cybernetics.",
+      "status": "Not Started"
+    },
+    {
+      "step": 4,
+      "action": "Narrative Design",
+      "description": "Write the game's story, including the main plot, side quests, and environmental storytelling.",
+      "status": "Not Started"
+    },
+    {
+      "step": 5,
+      "action": "AI Director",
+      "description": "Configure the SwarmNet AI Director to dynamically adjust the game's difficulty and horror elements.",
+      "status": "Not Started"
+    },
+    {
+      "step": 6,
+      "action": "Testing and Iteration",
+      "description": "Conduct thorough testing of all game systems and iterate on the design based on feedback.",
+      "status": "Not Started"
+    }
+  ],
+  "evolution_log": [
+    {
+      "timestamp": "2025-10-01T11:06:00Z",
+      "change": "Project initialized.",
+      "author": "did:web:example:jacob-scott-farmer"
+    }
+  ]
+}
